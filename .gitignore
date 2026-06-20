@@ -1,0 +1,23 @@
+# Secrets — NEVER commit these
+credentials.json
+token.json
+token.pickle
+.env
+.streamlit/secrets.toml
+
+# Generated data
+*.db
+ott_transactions.json
+ott_results.json
+
+# Old / unused code — push only the latest app (app_2.py) + its imports
+app.py
+extract_information_2.py
+extract_information_3.py
+test_3.py
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

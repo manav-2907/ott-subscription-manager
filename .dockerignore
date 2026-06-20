@@ -1,0 +1,21 @@
+# Secrets & personal data — never bake these into the image
+credentials.json
+token.json
+token.pickle
+.env
+*.db
+ott_transactions.json
+ott_results.json
+
+# Old / unused code — only the latest app + its imports ship
+app.py
+extract_information_2.py
+extract_information_3.py
+test_3.py
+
+# Python / dev cruft
+__pycache__/
+*.pyc
+.venv/
+venv/
+.git/

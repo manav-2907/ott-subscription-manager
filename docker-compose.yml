@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    container_name: ott-subscription-manager
+    ports:
+      - "8501:8501"
+    # Bind-mount the project folder so code, secrets (credentials.json,
+    # token.json, .env) and generated data (DB + JSON) all live on the host
+    # and persist across container restarts.
+    volumes:
+      - .:/app
+    restart: unless-stopped
