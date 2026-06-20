@@ -23,6 +23,21 @@ database, and lets you explore your spending — including a natural-language
 - **💬 Query DB** — ask questions in plain English (e.g. *"how much did I spend
   on Netflix this year?"*); answered via OpenAI → SQL → results.
 
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard — metrics](Screenshots/1.1_Dashboard.PNG)
+![Dashboard — charts](Screenshots/1.2_Dashboard.PNG)
+
+### The pipeline
+| Fetch Emails | Extract Data |
+|---|---|
+| ![Fetch](Screenshots/2.1_Fetch_Emails.PNG) | ![Extract](Screenshots/3.1_Extract_data.PNG) |
+
+| Load to DB | Query (natural language) |
+|---|---|
+| ![Load](Screenshots/4.1_Load_to_DB.PNG) | ![Query](Screenshots/5.1_Query_DB.PNG) |
+
 ## 🔁 How it works
 
 ```
